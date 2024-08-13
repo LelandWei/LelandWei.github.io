@@ -2,11 +2,9 @@
 layout: default
 ---
 
-## Welcome to another pages
-
 # My Resume
 
-You can view my resume [here](./assets/Resume.pdf).
+You can download my resume [here](./assets/Resume.pdf).
 
 Or view it directly below:
 
