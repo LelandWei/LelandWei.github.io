@@ -4,6 +4,12 @@ layout: default
 
 ## Welcome to another page
 
-_yay_
+# My Resume
+
+You can view my resume [here](./assets/Resume.pdf).
+
+Or view it directly below:
+
+<embed src="./assets/Resume.pdf" width="800px" height="2100px" />
 
 [back](./)
