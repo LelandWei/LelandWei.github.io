@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Introduction
-I am currently a first year Ph.D student in the department of electrical & computer engineering at the University of Miami, under the supervision of [Prof. Mingzhe Chen](https://people.miami.edu/profile/696f3a29e8134422918d40004ed88f25). 
+I am currently a second year Ph.D student in the department of electrical & computer engineering at the University of Miami, under the supervision of [Prof. Mingzhe Chen](https://people.miami.edu/profile/696f3a29e8134422918d40004ed88f25). 
 
 The goal of my research is to advance wireless security and optimize protocols for wireless communications.
 

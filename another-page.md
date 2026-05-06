@@ -4,10 +4,10 @@ layout: default
 
 # My Resume
 
-You can download my resume [here](./assets/Resume.pdf).
+You can download my CV [here](./assets/CV.pdf).
 
 Or view it directly below:
 
-<embed src="./assets/Resume.pdf" width="800px" height="2100px" />
+<embed src="./assets/CV.pdf" width="800px" height="2100px" />
 
 [back](./)
