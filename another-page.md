@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# My Resume
+# My CV
 
 You can download my CV [here](./assets/CV.pdf).
 
