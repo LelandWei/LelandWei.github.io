@@ -21,7 +21,7 @@ The goal of my research is to advance wireless security and optimize protocols f
 **Bachelor of Engineering: Electronic Information Engineering**  
 *(Sep. 2018 - Jun. 2022)*
 
-[Link to my resume](./another-page.html).
+[Link to my CV](./another-page.html).
 
 ## Publications
 
