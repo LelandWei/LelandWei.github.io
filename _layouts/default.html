@@ -3,45 +3,32 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     {% include head-custom.html %}
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <ul>
-            <!-- 删除了“View on GitHub”部分 -->
-            <!-- 如果有其他导航链接，你可以在这里添加 -->
-          </ul>
-        </nav>
-      </div><!-- end header -->
-
-    <div class="wrapper">
-
-      <section>
-        <div id="title">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-          <hr>
-          <!-- 删除了“Hosted on GitHub Pages”部分 -->
-          <!-- 如果有其他需要的内容，可以在这里添加 -->
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="site-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <div class="nav-links">
+          <a href="{{ '/' | relative_url }}#about">About</a>
+          <a href="{{ '/' | relative_url }}#research">Research</a>
+          <a href="{{ '/' | relative_url }}#publications">Publications</a>
+          <a href="{{ '/cv/' | relative_url }}">CV</a>
+          <a href="{{ '/' | relative_url }}#contact">Contact</a>
         </div>
+      </nav>
+    </header>
 
-        {{ content }}
+    <main class="page-shell">
+      {{ content }}
+    </main>
 
-      </section>
-
-    </div>
+    <footer class="site-footer">
+      <p>&copy; {{ 'now' | date: '%Y' }} Dongyu (Leland) Wei. Built with Jekyll.</p>
+    </footer>
   </body>
 </html>

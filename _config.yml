@@ -1,6 +1,14 @@
 title: Dongyu (Leland) Wei
-description: Ph.D student in University of Miami.
-show_downloads: true
+description: Ph.D. Student in Electrical and Computer Engineering at the University of Miami.
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-midnight
 remote_theme: pages-themes/midnight@v0.2.0
+
+author:
+  name: Dongyu (Leland) Wei
+  email: dongyu.wei@miami.edu
+
+links:
+  cv: /cv/
+  google_scholar: https://scholar.google.com/citations?user=XAh54EgAAAAJ&hl=en
